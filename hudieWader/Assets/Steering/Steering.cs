@@ -5,7 +5,10 @@ using UnityEngine;
 /// 行为基类
 /// </summary>
 public abstract class Steering : MonoBehaviour {
-
+    /// <summary>
+    /// 行为开关
+    /// </summary>
+    public  static bool steeringEnable = true;
     [Header("操控力的权重")]
     public float weight = 1;
 	// Use this for initialization

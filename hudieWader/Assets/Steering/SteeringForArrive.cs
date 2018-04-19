@@ -18,7 +18,7 @@ public class SteeringForArrive : Steering {
     /// <summary>
     /// 角色的半径
     /// </summary>
-    public float characterRadius = 1.2f;
+   // public float characterRadius = 1.2f;
     /// <summary>
     /// 开始减速的距离
     /// </summary>
